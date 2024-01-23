@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>librara|vinay</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="icons8-library-48.png" type="image/icon type">
+
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">
+            <h2>Library</h2>
+        </div>
+        <div class="links">
+            <li>home</li>
+            <li>contact</li>
+        </div>
+    </div>
+    <div class="mainsection">
+
+        <div class="librarySection">
+            <h2>Books</h2>
+            <div class="books">
+                <div class="first">
+
+                    <h2 id="bookOne">Book Title</h2>
+                    <p><strong><span class="dataCatch" data-book-name="title">bookname</span>
+                    </strong> is written by <strong><span class="dataCatch" data-author-name="author">authorname</span></strong></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ad aliquam expedita.</p>
+                </div>
+                <div class="first">
+
+                    <h2 id="bookTwo">Book Title</h2>
+                    <p><strong><span class="dataCatch" data-book-name="title">bookname</span>
+                    </strong> is written by <strong><span class="dataCatch" data-author-name="author">authorname</span></strong></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ad aliquam expedita.</p>
+                    
+                </div>
+                <div class="first">
+
+                    <h2 id="bookThree">Book Title</h2>
+                    <p><strong><span class="dataCatch" data-book-name="title">bookname</span>
+                    </strong> is written by <strong><span class="dataCatch" data-author-name="author">authorname</span></strong></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ad aliquam expedita.</p>
+                    
+                </div>
+                <div class="first">
+
+                    <h2 id="bookThree">Book Title</h2>
+                    <p><strong><span class="dataCatch" data-book-name="title">bookname</span>
+                    </strong> is written by <strong><span class="dataCatch" data-author-name="author">authorname</span></strong></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ad aliquam expedita.</p>
+                    
+                </div>
+            </div>
+
+            <div class="buttonSection">
+                <button class="addBook btn">add book</button>
+            </div>
+
+        </div>
+    </div>
+
+    <dialog id="dialog">
+        <form method="dialog">
+            <label for="bookName">Book Title:</label>
+            <input type="text" id="bookName" pattern="[a-zA-Z]" name="bookName" required>
+
+            <label for="authorName">Author:</label>
+            <input type="text" id="authorName" name="authorName" required>
+
+            <label for="pages">Pages:</label>
+            <input type="number" id="pages" name="pages" required>
+
+
+            <label for="read">Read:</label>
+            <input type="checkbox" id="read" name="read">
+
+            <input type="submit" id="closeDialog" value="submit">
+        </form>
+
+    </dialog>
+
+
+
+    <div class="footer">
+        <span>Copyright &#169 2024 vinayjoshi</span>
+    </div>
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
